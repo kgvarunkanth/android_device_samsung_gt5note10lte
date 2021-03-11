@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from gt5note10lte device
 $(call inherit-product, device/samsung/gt5note10lte/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gt5note10lte
-PRODUCT_NAME := omni_gt5note10lte
+PRODUCT_NAME := lineage_gt5note10lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P555
 PRODUCT_MANUFACTURER := samsung

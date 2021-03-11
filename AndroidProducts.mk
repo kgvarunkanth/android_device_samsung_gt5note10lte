@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_gt5note10lte.mk
+     $(LOCAL_DIR)/lineage_gt5note10lte.mk
