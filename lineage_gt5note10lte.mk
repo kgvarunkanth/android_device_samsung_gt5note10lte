@@ -24,9 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from gt5note10lte device
 $(call inherit-product, device/samsung/gt5note10lte/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common.mk)
-$(call inherit-product, vendor/lineage/config/gsm.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gt5note10lte
