@@ -18,3 +18,8 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/lineage_gt5note10lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_gt5note10lte-user \
+    lineage_gt5note10lte-userdebug \
+    lineage_gt5note10lte-eng
